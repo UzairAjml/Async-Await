@@ -45,24 +45,6 @@ body {
   /* overflow: hidden; */
 }
 
-.neighbour::before {
-  content: 'Neighbour country';
-  width: 100%;
-  position: absolute;
-  top: -4rem;
-
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #888;
-}
-
-.neighbour {
-  transform: scale(0.8) translateY(1rem);
-  margin-left: 0;
-}
-
 .country__img {
   width: 30rem;
   height: 17rem;
@@ -106,21 +88,4 @@ body {
   color: white;
   background-color: orangered;
   cursor: pointer;
-}
-
-.images {
-  display: flex;
-}
-
-.images img {
-  display: block;
-  width: 80rem;
-  margin: 4rem;
-}
-
-.images img.parallel {
-  width: 40rem;
-  margin: 2rem;
-  border: 3rem solid white;
-  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
 }
